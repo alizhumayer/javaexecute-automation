@@ -1,0 +1,110 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 2,
+            "value": "# This feature deals with the login functionality of the application"
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 6816558400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.InitializeTest()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Login with correct username and password",
+        "description": "",
+        "id": "loginfeature;login-with-correct-username-and-password",
+        "after": [
+          {
+            "result": {
+              "duration": 1084800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.TearDownTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2989812500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigate to the login page",
+            "match": {
+              "location": "LoginStep.iNavigateToTheLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15470055800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter username and password",
+            "match": {
+              "location": "LoginStep.iEnterUsernameAndPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1621000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am in",
+            "match": {
+              "location": "LoginStep.i_am_in()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10990006700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I find my sisters account",
+            "match": {
+              "location": "LoginStep.i_find_my_sisters_account()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 36295255400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I write her a message",
+            "match": {
+              "location": "LoginStep.i_write_her_a_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "LoginFeature",
+    "description": "",
+    "id": "loginfeature",
+    "keyword": "Feature",
+    "uri": "A Login.feature"
+  }
+]
